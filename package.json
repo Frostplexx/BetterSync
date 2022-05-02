@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "zlibrarybuilder": "^1.2.0"
   },
   "buildConfig": {
@@ -12,10 +13,12 @@
   "description": "Sync Plugins",
   "main": "index.js",
   "dependencies": {
-    "commander": "^9.2.0"
+    "commander": "^9.2.0",
+    "node-dev": "^7.4.3"
   },
   "scripts": {
-    "build": "zlibrarybuilder"
+    "build": "zlibrarybuilder",
+    "dev": "node-dev --respawn ./node_modules/zlibrarybuilder/bin.js"
   },
   "author": "",
   "license": "ISC"

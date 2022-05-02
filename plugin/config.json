@@ -9,11 +9,11 @@
         }],
         "version": "0.0.1",
         "description": "Sync Plugins across your devices with GitHub",
-        "github": "",
-        "github_raw": ""
+        "github": "https://github.com/Frostplexx/BetterSync.git",
+        "github_raw": "https://raw.githubusercontent.com/Frostplexx/BetterSync/master/release/BetterSync.plugin.js"
     },
     "changelog": [
         {"title": "Inital Beta", "items": ["Everything is new!"]}
     ],
-    "main": "index.js"
+    "main": "index.ts"
 }
