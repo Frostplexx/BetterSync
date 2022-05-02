@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "zlibrarybuilder": "^1.2.0"
+  },
+  "buildConfig": {
+    "pluginFolder": "./plugin",
+    "copyToBD": true,
+    "addInstallScript": true
+  },
+  "name": "bettersync",
+  "version": "0.0.1",
+  "description": "Sync Plugins",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.2.0"
+  },
+  "scripts": {
+    "build": "zlibrarybuilder"
+  },
+  "author": "",
+  "license": "ISC"
+}

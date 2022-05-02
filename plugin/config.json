@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "BetterSync",
+        "authors": [{
+            "name": "Frostplexx",
+            "discord_id": "336806197158215682",
+            "github_username": "frostplexx",
+            "twitter_username": "Frostplexx"
+        }],
+        "version": "0.0.1",
+        "description": "Sync Plugins across your devices with GitHub",
+        "github": "",
+        "github_raw": ""
+    },
+    "changelog": [
+        {"title": "Inital Beta", "items": ["Everything is new!"]}
+    ],
+    "main": "index.js"
+}
