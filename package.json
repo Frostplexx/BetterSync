@@ -14,7 +14,8 @@
   "main": "index.js",
   "dependencies": {
     "commander": "^9.2.0",
-    "node-dev": "^7.4.3"
+    "node-dev": "^7.4.3",
+    "simple-git": "^3.7.1"
   },
   "scripts": {
     "build": "zlibrarybuilder",
